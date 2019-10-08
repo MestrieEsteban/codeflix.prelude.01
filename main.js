@@ -5,6 +5,8 @@ const length = require('./ex03')
 const capitalize = require('./ex04')
 const decapitalize = require('./exo05')
 const kebabCase = require('./ex06')
+const snakecase = require('./ex07')
+
 
 
 
@@ -44,5 +46,15 @@ console.log('kebabCase :')
 console.log(kebabCase('love on code'))
 console.log(kebabCase('LoveOnCode'))
 console.log(kebabCase('-Love-On-Code-'))
+
+console.log('____')
+
+console.log('snakecase :')
+console.log(snakecase('gold d roger'))
+console.log(snakecase('GoldDReger'))
+console.log(snakecase('-Gold-D-Roger-'))
+
+
+
 
 
