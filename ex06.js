@@ -19,8 +19,6 @@ module.exports = function snakecase(str = '')
 
       finish = finish.toLowerCase()
 
-    
-
     return finish
  }
 
