@@ -2,6 +2,8 @@
 const lowerCase = require('./ex01')
 const upperCase = require('./ex02')
 const length = require('./ex03')
+const capitalize = require('./ex04')
+
 
 
 
@@ -19,3 +21,11 @@ console.log('____')
 
 console.log('length :')
 console.log(length('ch0pper'))
+
+console.log('____')
+
+console.log('capitalize :')
+console.log(capitalize('one Code'))
+console.log(capitalize('One CODE', true))
+
+
