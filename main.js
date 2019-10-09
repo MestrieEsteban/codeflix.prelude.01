@@ -7,6 +7,8 @@ const decapitalize = require('./exo05')
 const kebabCase = require('./ex06')
 const snakecase = require('./ex07')
 const swapCase = require('./ex08')
+const charAt = require('./ex09')
+
 
 
 
@@ -61,6 +63,11 @@ console.log('swapCase :')
 console.log(swapCase('One Code'))
 console.log(swapCase('1337 Fruits'))
 
+console.log('____')
+
+console.log('charAt :')
+console.log(charAt('Chopper', 0))
+console.log(charAt('Chopper', 1))
 
 
 
