@@ -8,6 +8,8 @@ const kebabCase = require('./ex06')
 const snakecase = require('./ex07')
 const swapCase = require('./ex08')
 const charAt = require('./ex09')
+const first = require('./ex10')
+
 
 
 
@@ -68,6 +70,16 @@ console.log('____')
 console.log('charAt :')
 console.log(charAt('Chopper', 0))
 console.log(charAt('Chopper', 1))
+
+console.log('____')
+
+console.log('First :')
+console.log(first('Chopper'))
+console.log(first('Chopper', 2))
+console.log(first('Chopper', 5))
+
+
+
 
 
 
