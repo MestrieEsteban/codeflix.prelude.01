@@ -10,6 +10,7 @@ const swapCase = require('./ex08')
 const charAt = require('./ex09')
 const first = require('./ex10')
 const last = require('./ex11')
+const substr = require('./ex12')
 
 
 
@@ -86,6 +87,14 @@ console.log('Last :')
 console.log(last('Chopper'))
 console.log(last('Chopper', 2))
 console.log(last('tony', 5))
+
+console.log('____')
+
+console.log('substr :')
+console.log(substr('tony tony chopper', 10))    
+console.log(substr('ch0pper', 2, 2))
+
+
 
 
 
