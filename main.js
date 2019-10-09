@@ -22,6 +22,8 @@ const repeat            = require('./ex20')
 const reverse           = require('./ex21')
 const splice            = require('./ex22')
 const trim              = require('./ex23')
+const endswith          = require('./ex24')
+const includes          = require('./ex25')
 
 
 
@@ -175,6 +177,23 @@ console.log('____')
 console.log('Trim :')
 console.log(trim(' Tony Tony Ch0pper '))
 console.log(trim('--Tony Tony Ch0pper--', '-'))
+
+console.log('____')
+
+console.log('EndsWith :')
+console.log(endswith('Tony Tony Ch0pper', 'Ch0pper'))
+console.log(endswith('Tony Tony Ch0pper', 'Tony'))
+console.log(endswith('Ch0pper', 'h0', 3))
+
+console.log('____')
+
+console.log('includes :')
+console.log(includes('Tony Tony Ch0pper', 'Ch0pper', 9))
+
+
+
+
+
 
 
 
