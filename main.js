@@ -28,6 +28,9 @@ const isAlphaDigit      = require('./ex27')
 const isBank            = require('./ex28')
 const isDigit           = require('./ex29')
 const isEmpty           = require('./ex30')
+const isLowerCase       = require('./ex31')
+const isUpperCase       = require('./ex32')
+
 
 
 
@@ -223,6 +226,21 @@ console.log('Is Empty:')
 console.log(isEmpty(''))
 console.log(isEmpty('   '))
 console.log(isEmpty('ch0pper'))
+
+console.log('____')
+
+console.log('Is lower case:')
+console.log(isLowerCase('chopper'))
+console.log(isLowerCase('Chopper'))
+console.log(isLowerCase('ch0pper'))
+
+console.log('____')
+
+console.log('Is upper case:')
+console.log(isUpperCase('CHOPPER'))
+console.log(isUpperCase('Chopper'))
+
+
 
 
 
