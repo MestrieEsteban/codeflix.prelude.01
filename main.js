@@ -26,6 +26,8 @@ const endswith          = require('./ex24')
 const isAlpha           = require('./ex26')
 const isAlphaDigit      = require('./ex27')
 const isBank            = require('./ex28')
+const isDigit           = require('./ex29')
+const isEmpty           = require('./ex30')
 
 
 
@@ -207,6 +209,21 @@ console.log('Is Bank:')
 console.log(isBank(''))
 console.log(isBank('   '))
 console.log(isBank('Ch0pper!'))
+
+console.log('____')
+
+console.log('Is Digit:')
+console.log(isDigit('42'))
+console.log(isDigit('9.4'))
+console.log(isDigit('ch0pper'))
+
+console.log('____')
+
+console.log('Is Empty:')
+console.log(isEmpty(''))
+console.log(isEmpty('   '))
+console.log(isEmpty('ch0pper'))
+
 
 
 
