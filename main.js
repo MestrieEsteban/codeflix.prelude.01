@@ -16,6 +16,7 @@ const count             = require('./ex14')
 const countSubstrings   = require('./ex15')
 const countWords        = require('./ex16')
 const indexOf           = require('./ex17')
+const lastindexOf       = require('./ex18')
 
 
 
@@ -129,6 +130,14 @@ console.log('____')
 console.log('Index of :')
 console.log(indexOf('Ch0pper', '0'))
 console.log(indexOf('Ch0pper', 'o'))
+
+console.log('____')
+
+console.log('Last Index of :')
+console.log(lastindexOf('Ch0pper', 'p'))
+console.log(lastindexOf('Ch0pper', 'o'))
+
+
 
 
 
