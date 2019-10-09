@@ -18,6 +18,7 @@ const countWords        = require('./ex16')
 const indexOf           = require('./ex17')
 const lastindexOf       = require('./ex18')
 const insert            = require('./ex19')
+const repeat            = require('./ex20')
 
 
 
@@ -146,6 +147,11 @@ console.log(insert('Tony', ' Tony Ch0pper', 4))
 
 
 
+console.log('____')
+
+console.log('Reapeat :')
+console.log(repeat('w', 3))
+console.log(repeat('gomu', 0))
 
 
 
