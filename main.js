@@ -20,6 +20,8 @@ const lastindexOf       = require('./ex18')
 const insert            = require('./ex19')
 const repeat            = require('./ex20')
 const reverse           = require('./ex21')
+const splice            = require('./ex22')
+
 
 
 
@@ -159,6 +161,17 @@ console.log('____')
 
 console.log('Reverse :')
 console.log(reverse('ch0pper'))
+
+console.log('____')
+
+console.log('Splice :')
+console.log(splice('Tony Tony Ch0pper', 0, 10))
+console.log(splice('Tony Ch0pper', 0, 4, 'Tony Tony'))
+console.log(splice('Tony Tony Usopp', -5, 5, 'Ch0pper'))
+
+
+
+
 
 
 
