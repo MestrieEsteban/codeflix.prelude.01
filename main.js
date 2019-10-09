@@ -23,7 +23,7 @@ const reverse           = require('./ex21')
 const splice            = require('./ex22')
 const trim              = require('./ex23')
 const endswith          = require('./ex24')
-const includes          = require('./ex25')
+const isAlpha           = require('./ex26')
 
 
 
@@ -187,8 +187,10 @@ console.log(endswith('Ch0pper', 'h0', 3))
 
 console.log('____')
 
-console.log('includes :')
-console.log(includes('Tony Tony Ch0pper', 'Ch0pper', 9))
+console.log('Is Alpha :')
+console.log(isAlpha('Chopper'))
+console.log(isAlpha('Chopper!'))
+console.log(isAlpha('Chopper and Ussop'))
 
 
 
