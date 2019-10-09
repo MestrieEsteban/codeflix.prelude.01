@@ -11,6 +11,7 @@ const charAt = require('./ex09')
 const first = require('./ex10')
 const last = require('./ex11')
 const substr = require('./ex12')
+const slice = require('./ex13')
 
 
 
@@ -93,6 +94,19 @@ console.log('____')
 console.log('substr :')
 console.log(substr('tony tony chopper', 10))    
 console.log(substr('ch0pper', 2, 2))
+
+console.log('____')
+
+console.log('slice :')
+console.log(slice('ch0pper', 1))    
+console.log(slice('ch0pper', -4))
+console.log(slice('ch0pper', 1, 4))
+
+
+
+
+
+
 
 
 
