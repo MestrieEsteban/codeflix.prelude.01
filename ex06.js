@@ -1,4 +1,4 @@
-module.exports = function snakecase(str = '') 
+module.exports = function kebabCase(str = '') 
  {
     let finish
 

@@ -6,6 +6,7 @@ const capitalize = require('./ex04')
 const decapitalize = require('./exo05')
 const kebabCase = require('./ex06')
 const snakecase = require('./ex07')
+const swapCase = require('./ex08')
 
 
 
@@ -53,6 +54,12 @@ console.log('snakecase :')
 console.log(snakecase('gold d roger'))
 console.log(snakecase('GoldDReger'))
 console.log(snakecase('-Gold-D-Roger-'))
+
+console.log('____')
+
+console.log('swapCase :')
+console.log(swapCase('One Code'))
+console.log(swapCase('1337 Fruits'))
 
 
 
