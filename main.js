@@ -24,6 +24,8 @@ const splice            = require('./ex22')
 const trim              = require('./ex23')
 const endswith          = require('./ex24')
 const isAlpha           = require('./ex26')
+const isAlphaDigit      = require('./ex27')
+const isBank            = require('./ex28')
 
 
 
@@ -191,6 +193,26 @@ console.log('Is Alpha :')
 console.log(isAlpha('Chopper'))
 console.log(isAlpha('Chopper!'))
 console.log(isAlpha('Chopper and Ussop'))
+
+console.log('____')
+
+console.log('Is Alpha Digit:')
+console.log(isAlphaDigit('Ch0pper'))
+console.log(isAlphaDigit('1986'))
+console.log(isAlphaDigit('1337-42'))
+
+console.log('____')
+
+console.log('Is Bank:')
+console.log(isBank(''))
+console.log(isBank('   '))
+console.log(isBank('Ch0pper!'))
+
+
+
+
+
+
 
 
 

@@ -1,9 +1,9 @@
-module.exports = function includes(str = '') 
+module.exports = function isAlpha(str = '') 
  {
 
     let result
 
-    if(str.match(/\`|\~|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\+|\=|\[|\{|\]|\}|\||\\|\'|\<|\,|\.|\>|\?|\/|\"|\;|\:|\ /)){result = false }
+    if(str.match(/\`|\~|\!|\@|\#|\$|\%|\^|\&|\*|\(|\)|\+|\=|\[|\{|\]|\}|\||\\|\'|\<|\,|\.|\>|\?|\/|\"|\;|\:|\ /g)){result = false }
     else{result = true}
     
 
