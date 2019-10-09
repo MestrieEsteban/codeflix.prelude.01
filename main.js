@@ -14,6 +14,7 @@ const substr = require('./ex12')
 const slice = require('./ex13')
 const count = require('./ex14')
 const countSubstrings = require('./ex15')
+const countWords = require('./ex16')
 
 
 
@@ -115,6 +116,13 @@ console.log('____')
 console.log('Count Substrings :')
 console.log(countSubstrings('Tony Tony Chopper', 'Tony'))
 console.log(countSubstrings('gomu gomu no mazooka', 'gatling'))
+
+console.log('____')
+
+console.log('Count Words :')
+console.log(countWords('Tony Tony Ch0pper'))
+console.log(countWords('TonyTonyCh0pper'))
+console.log(countWords('Tony Tony - Ch0pper'))
 
 
 
