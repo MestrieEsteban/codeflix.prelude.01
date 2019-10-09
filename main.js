@@ -19,6 +19,7 @@ const indexOf           = require('./ex17')
 const lastindexOf       = require('./ex18')
 const insert            = require('./ex19')
 const repeat            = require('./ex20')
+const reverse           = require('./ex21')
 
 
 
@@ -153,6 +154,11 @@ console.log('Reapeat :')
 console.log(repeat('w', 3))
 console.log(repeat('gomu', 0))
 
+
+console.log('____')
+
+console.log('Reverse :')
+console.log(reverse('ch0pper'))
 
 
 
