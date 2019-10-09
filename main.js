@@ -9,6 +9,8 @@ const snakecase = require('./ex07')
 const swapCase = require('./ex08')
 const charAt = require('./ex09')
 const first = require('./ex10')
+const last = require('./ex11')
+
 
 
 
@@ -77,6 +79,14 @@ console.log('First :')
 console.log(first('Chopper'))
 console.log(first('Chopper', 2))
 console.log(first('Chopper', 5))
+
+console.log('____')
+
+console.log('Last :')
+console.log(last('Chopper'))
+console.log(last('Chopper', 2))
+console.log(last('tony', 5))
+
 
 
 
