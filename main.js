@@ -21,6 +21,7 @@ const insert            = require('./ex19')
 const repeat            = require('./ex20')
 const reverse           = require('./ex21')
 const splice            = require('./ex22')
+const trim              = require('./ex23')
 
 
 
@@ -169,6 +170,11 @@ console.log(splice('Tony Tony Ch0pper', 0, 10))
 console.log(splice('Tony Ch0pper', 0, 4, 'Tony Tony'))
 console.log(splice('Tony Tony Usopp', -5, 5, 'Ch0pper'))
 
+console.log('____')
+
+console.log('Trim :')
+console.log(trim(' Tony Tony Ch0pper '))
+console.log(trim('--Tony Tony Ch0pper--', '-'))
 
 
 
